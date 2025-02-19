@@ -1,0 +1,9 @@
+# Ignore UiPath temporary and sensitive files
+.local/
+.screenshots/
+.cache/
+.settings/
+.nuget/
+*.xaml~
+*.json~
+
