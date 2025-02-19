@@ -1,9 +1,31 @@
-# Ignore UiPath temporary and sensitive files
-.local/
-.screenshots/
-.cache/
-.settings/
+# Ignore UiPath temporary and metadata folders
+.project/
+.tmh/
+
+#Ignore auto-generated JSON files
+PackageBindingsMetadata.json
+design.json
+
+#Ignore sensitive configuration files
+config.json
+
+#Ignore logs and temporary files
+*.log
+*.tmp
+*.cache
+
+#Ignore UiPath package dependencies
 .nuget/
-*.xaml~
-*.json~
+packages/
+
+#Ignore backup and user-specific files
+*.user
+*.suo
+*.db
+*.sqlite
+*.bak
+*.xlsx
+*.csv
+
+
 
